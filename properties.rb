@@ -1,15 +1,18 @@
 module Properties
+  @legs = 0
+  @wood = 0
     module ClassMethods
-      def four_legs
-        "Has 18 legs"
-      end
-  
-      def type_of_wood
-          "Honduran Mahagony"
-      end
+    
+      def set_legs 
+        @legs = 4
+      end 
+      
+      def wood
+        @wood =  "Claro Walnut"
+      end    
     end
-  
-    def description
-      puts "This piece has 18 legs and is made of Mahagony."
+
+      def description
+      puts "This piece has #{self.class.set_legs} legs and is made of #{@wood}."
     end
-  end
+end
