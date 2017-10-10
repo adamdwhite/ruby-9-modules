@@ -6,5 +6,4 @@ class Furniture
         @height = height 
         @length = length
     end
-
-    end
+end

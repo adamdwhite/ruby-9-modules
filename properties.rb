@@ -1,15 +1,15 @@
 module Properties
     module ClassMethods
       def four_legs
-        "Has four legs"
+        "Has 18 legs"
       end
   
       def type_of_wood
-          "Cherry"
+          "Honduran Mahagony"
       end
     end
   
     def description
-      puts "This piece has four legs and is made of cherry."
+      puts "This piece has 18 legs and is made of Mahagony."
     end
   end

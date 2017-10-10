@@ -15,6 +15,7 @@ class Table < Furniture
     def seating 
         seats = 7
         puts "This table has seating for #{seats}"
+        # puts table.total_size
     end 
     
 end
@@ -23,4 +24,3 @@ table = Table.new
 
 puts table.seating 
 puts table.description
-puts table.total_size
